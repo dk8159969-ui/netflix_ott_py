@@ -1,0 +1,10 @@
+import pandas as pd
+a=pd.read_csv('data (4) (1).csv')
+print(a.to_string())
+# print(a.info())
+# b=a.dropna()
+# print(b.to_string())
+# a.fillna(0,inplace=True)
+# print(a.describe())
+# b=a['Calories'].groupby(a['Pulse']).mean()
+# print(b)
